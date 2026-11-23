@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# env (비밀값이 들어가는 파일)
+.env
+.env.*
+!.env.example
+
+# build output
+.next/
+dist/
+*.tsbuildinfo
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS · editor
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+.idea/
